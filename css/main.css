@@ -7,6 +7,10 @@ nav {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
@@ -223,4 +227,197 @@ nav {
 .w-like i.fa-plus {
     font-size: 25px;
     line-height: 1;
+}
+
+.testimonials {
+    background-image: linear-gradient(rgba(0, 120, 255, 0.5), rgba(0, 120, 255, 0.5)), url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.testimonials {
+    height: 55vh;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-caption {
+    position: static;
+    margin-top: 10px;
+    color: #333;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-weight: 400;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+
+.f-slide {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.s-slide {
+    border-radius: 50% / 100%;
+    object-fit: cover;
+}
+
+.card-blog .card-body {
+    position: relative;
+}
+
+.card-blog .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.card-blog .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+
+.card-title a {
+    color: black;
+    transition: color 0.8s ease;
+
+}
+
+.card-title a:hover {
+    color: #0078FF;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.contact {
+    background-image: linear-gradient(rgba(0, 120, 255, 0.5), rgba(0, 120, 255, 0.5)), url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#contact {
+    background-color: white;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 0;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.box-shadow-full {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.socials {
+    padding: 1.5rem 0;
+}
+
+.list-ico {
+    list-style: none;
+    padding-left: 0;
+}
+
+.socials ul {
+    list-style: none;
+}
+
+.socials {
+    padding: 1.5rem 0;
+}
+
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+}
+
+footer {
+    background-color: #0062D3;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+
+}
+
+.nav-link {
+    position: relative;
+
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
